@@ -34,7 +34,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Random Cat Fact</h1>
+        <h1>This is a random cat fact for you</h1>
         {loading && <p>Loading...</p>}
         {error && <p style={{ color: 'red' }}>Error: {error}</p>}
         {!loading && !error && <p>{catFact}</p>}
